@@ -1,30 +1,26 @@
-# Jupyter Real-Time Collaboration
+# "Projet de recherche en informatique": collaboration en temps réel
 
-[![Build Status](https://github.com/jupyterlab/jupyter_collaboration/actions/workflows/test.yml/badge.svg?query=branch%3Amain++)](https://github.com/jupyterlab/jupyter_collaboration/actions?query=branch%3Amain++)[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jupyterlab/jupyter_collaboration/main)[![PyPI](https://img.shields.io/pypi/v/jupyter-collaboration)](https://pypi.org/project/jupyter-collaboration)[![npm](https://img.shields.io/npm/v/@jupyter/collaboration-extension)](https://www.npmjs.com/package/@jupyter/collaboration-extension)
+Développé par Eliott Bell à partir du projet [jupyter-collaboration](https://github.com/jupyterlab/jupyter-collaboration) (Jupyter Development Team) et supervisé par Zhenyu Cai
 
-JupyterLab Real-Time Collaboration is a Jupyter Server Extension and JupyterLab extensions providing support for [Y documents](https://github.com/jupyter-server/jupyter_ydoc) and adding collaboration UI elements in JupyterLab.
+Bachelor, semestre 6 (févr. 2024 - juil. 2024), EPFL (Ecole Polytechnique Fédérale de Lausanne)
 
-![Real-Time Collaboration Demonstration](./docs/source/images/rtc_shared_cursors.png)
+L'objectif de ce projet de recherche semestriel est d'imaginer, concevoir et implémenter une version améliorée de l'extension jupyter-collaboration (permettant la collaboration en temps réel sur les notebooks Jupyter), visant à rendre cette méthode de travail utile dans des contextes éducatifs. Ce projet a été divisé en deux moitiés:
 
-## Installation and Basic usage
+- La première moitié du semestre a été dédiée à la conception de plusieurs petites améliorations permettant de transformer un serveur Jupyter en un outil de collaboration pratique et complet. Les fonctionnalités en question incluent une messagerie, un système de sondages et une forme de contrôle d'accès à base de rôles.
+- Le reste du semestre a été consacré à une fonctionnalité plus complexe et développée, à savoir un système permettant aux modérateur·ice·s du serveur Jupyter de surveiller l'activité des autres utilisateur·ice·s à travers le notebook.
 
-To install the latest release locally, make sure you have
-[pip installed](https://pip.readthedocs.io/en/stable/installing/) and run:
+Le projet était supervisé par Zhenyu Cai, un professeur assistant de l'EPFL, à qui je devais faire des rapports hebdomadaires sur ma progression.
 
-```bash
-pip install jupyter-collaboration
-```
+### Travail effectué
 
-Or using ``conda``/``mamba``:
+Tout mon code se trouve dans le dossier packages/collaboration/src/. Les fichiers activitybargraph.tsx, activitydisplay.tsx, activitydotplot.tsx, cellTracker.ts, chatbox.tsx, messageEncoding.ts, ownerdialog.ts, polls.tsx et roles.ts ont été entièrement écrits par moi-même, ainsi que plusieurs modifications dans d'autres fichiers du même dossier. J'ai également écrit plusieurs classes CSS du fichier packages/collaboration/style/sidepanel.css pour améliorer le rendu visuel des composants que j'ai écrits.
 
-```bash
-conda install -c conda-forge jupyter-collaboration
-```
+### Compétences acquises/travaillées
 
-### Testing
+- Développement full-stack
 
-See [CONTRIBUTING](./docs/source/developer/contributing.rst#running-tests).
+- Programmation en JavaScript/TypeScript
 
-## Contributing
+- Conception de fonctionnalités de bout en bout
 
-If you are interested in contributing to the project, see [CONTRIBUTING](./docs/source/developer/contributing.rst).
+- Organisation et communication

@@ -1,27 +1,29 @@
-"Human-computer interaction" project
+# Projet d'"Interaction personne-système": jeu Unity
 
-Developed by Eliott Bell, Victor Faltings and Belén Gómez García
+Développé par Eliott Bell, Victor Faltings et Belén Gómez García
 
-Bachelor, semester 4 (02.21.2022 - 06.05.2022) at EPFL (Swiss Federal Institute of Technology Lausanne)
+Bachelor, semestre 4 (févr. 2022 - juil. 2022), EPFL (Ecole Polytechnique Fédérale de Lausanne)
 
+Ce projet a été développé en trois étapes:
 
+- Développement d'un mode de jeu prédéterminé (mode "classic") à partir de ressources déjà fournies en suivant des instructions précises
+- Ajout d'améliorations prédéterminées au dit mode de jeu sans instructions claires
+- Création de notre propre mode de jeu (mode "maze") sans contraintes ou instructions
 
-This project was developed in 3 steps:
-- Developing a pre-determined game from provided assets by following precise instructions ("classic" game mode)
-- Adding several pre-determined improvements to said game mode without clear guidance
-- Creating our own game mode without limitations or instructions ("maze" game mode)
+Le jeu est jouable au clavier. Il est également possible d'y jouer avec des Cellulos, des robots hexagonaux à retour de force développés à l'EPFL. Les personnages jouables prennent la forme desdits robots.esigned after.
 
-This game also supports a physical version using Cellulos (hexagonal wireless robots with haptic feedback, created at EPFL with educational purposes by a team of engineers) which the playable characters are designed after.
+Il est possible de jouer au jeu en exécutant jeu-compile/SpaceGhostSheep.exe ou de lire le code source dans le dossier projet-unity.
 
-You can try out the game with Compiled Game/SpaceGhostSheep.exe and look at the underlying code in Raw Unity project/.
+### Travail effectué
 
-WHAT WE DID (located in Raw Unity project/Assets/):
-The levels were build on Unity by us. The scripts we wrote by hand in C# were most scripts in Core/Behaviors/, Game/, Maze Game/, Menu/ and UI/ as well as PlayerMovement.cs. The sound effects Resources/GemCollected.wav and Resources/PointStolen.wav were also composed by yours truly.
+Le code que nous avons écrit se trouve dans le dossier projet-unity/Assets/Scripts. Nous avons écrit la plupart des fichiers en C# dans les dossiers Core/Behaviors/, Game/, Maze Game/, Menu/ et UI/ ainsi que le fichier PlayerMovement.cs. Dans le dossier projet-unity/Assets/Resources, les effets sonores GemCollected.wav et PointStolen.wav ont été composés par moi-même.
 
+### Compétences acquises/travaillées
 
+- Développement de jeu sur la plateforme Unity
 
-Skills learned/worked on:
-- Game developing with Unity
-- C# coding
-- UI design
-- Task management and teamwork
+- Programmation en C#
+
+- Design d'interfaces utilisateur
+
+- Travail d'équipe et organisation
