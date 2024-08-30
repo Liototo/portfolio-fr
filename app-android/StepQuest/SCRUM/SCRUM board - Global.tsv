@@ -1,0 +1,74 @@
+Title	URL	Assignees	Status	Sprint	Task type	Nature	Epic	Estimated (hours)	Actual time (hours)
+As a gamer I want to have a game that takes into account my real life actions so that I feel gratified when I walk with my friends			Product Backlog						
+As a competitive player, I want to see my progression towards achievements that I have done through the app so that I can showcase my accomplishments and share my gaming journey with others.	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/66		Product Backlog						
+As user, I want to send challenges to my friends so that we can have  fun competitions together		Santboneless	Sprint Task	Sprint 7					
+Discuss what challenges can player send to their friends		Liototo, Raytimz, Santboneless	Sprint Task	Sprint 7				2	
+Implement a function to send challenges		Santboneless	Sprint Task	Sprint 7				2	
+Implement a function to receive and accept/reject a challenge		Liototo	Sprint Task	Sprint 7				2	
+Implement a UI to see all the challenges accepted		Santboneless	Sprint Task	Sprint 7				3	
+Implement a function that check if a challenge was completed		Raytimz	Sprint Task	Sprint 7				3	
+As a user, I want to see all the routes near me and around a certain destination so that I can plan the walks I want to try to discover my area		changchuntzu0618, NizarBenMohamed, simoandreani	Sprint Task	Sprint 7					
+get all routes from database	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/102	changchuntzu0618	Sprint Task	Sprint 7				4	
+implement google maps search		NizarBenMohamed	Sprint Task	Sprint 7				3	
+Display picture in the checkpoint menu after taking it	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/126	simoandreani	Sprint Task	Sprint 7				2	
+As a user, I want to follow the same paths as other users and checkout the points of interests they have marked to broaden my knowledge of my current area		changchuntzu0618, NizarBenMohamed, simoandreani	Sprint Task	Sprint 7					
+click on marker it will show the corresponding route		changchuntzu0618	Sprint Task	Sprint 7				6	
+a moving marker to track/show current user location		NizarBenMohamed	Sprint Task	Sprint 7				5	
+implement checkpoint match button		simoandreani	Sprint Task	Sprint 7				6	
+Add score for matching checkpoint		simoandreani	Sprint Task	Sprint 7				2	
+Discuss how do we work for the PRD		changchuntzu0618, Liototo, NizarBenMohamed, Raytimz, Santboneless, simoandreani	Sprint Task	Sprint 7					
+Write tests for the stepcounter	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/61	NizarBenMohamed	Done in Sprint #5	Sprint 5				3	
+Implement a button to start the creation of a route	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/11	changchuntzu0618	Done in Sprint #5	Sprint 5					
+Discuss how would a friend request work	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/80	Liototo, Santboneless	Done in Sprint #5	Sprint 5				1	1
+Implement a UI for the new player page	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/83	Santboneless	Done in Sprint #5	Sprint 5				3	5
+Implement the option to take a picture for the checkpoint	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/55	simoandreani	Done in Sprint #5	Sprint 5					
+Implement the username creation for new players	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/84	Santboneless	Done in Sprint #5	Sprint 5				5	5
+Update the loginscreen code to adapt to the "new player" component	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/93	Santboneless	Done in Sprint #5	Sprint 5				2	2
+Link user search to Firebase	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/88	Liototo	Done in Sprint #5	Sprint 5				2	4
+Implement a function to send pending friend requests	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/81	Liototo	Done in Sprint #5	Sprint 5				3	5
+Implement a stop button to stop the route creation process	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/24	changchuntzu0618	Done in Sprint #5	Sprint 5					
+As a user, I want to be able to create a new route so that I can see the path I took	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/97	changchuntzu0618	Done in Sprint #5	Sprint 5					
+As a social user, I want to be able to see all my friends to see if they are online or not	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/35	Liototo, Santboneless	Done in Sprint #6	Sprint 5					
+Writing a script for the demo video	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/116	Raytimz	Done in Sprint #6	Sprint 6				1	
+Fix bug with displaying step count on progression page	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/131	NizarBenMohamed	Done in Sprint #6	Sprint 6					
+Making SonarCloud coverage work	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/50	Santboneless	Done in Sprint #6	Sprint 6				3	3
+As a user, I want be able to see the progression of the route I am creating so that I can decide if I want to continue it or not		simoandreani	Done in Sprint #6	Sprint 6					
+Route progression: display route length, number of checkpoints placed, reward	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/60	simoandreani	Done in Sprint #6	Sprint 6				2	2
+Design the figma for search routes	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/100	changchuntzu0618	Done in Sprint #6	Sprint 6				2	1
+implement UI for search route	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/101	changchuntzu0618	Done in Sprint #6	Sprint 6				4	2
+Implement the UI for a friend in the friends list	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/119	Santboneless	Done in Sprint #6	Sprint 6				2	2
+Discuss how to connect players together	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/99	Liototo, Raytimz, Santboneless	Done in Sprint #6	Sprint 6				2	1
+add architecture	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/128	changchuntzu0618	Done in Sprint #6	Sprint 6				1	1
+Store user checkpoints	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/92	NizarBenMohamed	Done in Sprint #6	Sprint 6				3	
+Add a function that deletes pending friend requests	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/115	Liototo	Done in Sprint #6	Sprint 6				2	6
+Modify the "Add friend" function to make it go both ways	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/108	Liototo, Santboneless	Done in Sprint #6	Sprint 6				3	2
+Add functionality to remove friends	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/109	Liototo	Done in Sprint #6	Sprint 6				4	3
+Update tests for coverage (AddFriendScreen, ProfilePage, newPlayerScreen)	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/110	Santboneless	Done in Sprint #6	Sprint 6				2	4
+create area around a location on the map	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/105	simoandreani	Done in Sprint #6	Sprint 6				3	
+Disable sending friend requests to people who are already your friends	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/111	Liototo	Done in Sprint #6	Sprint 7				2	
+Update tests for Step goals Dialog	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/63	Santboneless	Done in Sprint #4	Sprint 4					
+Put login screen in its own file	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/72	Liototo	Done in Sprint #4	Sprint 4					
+Writing tests for the home screen	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/52	simoandreani	Done in Sprint #4	Sprint 4					
+Implementation of a UI to display the friends list	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/48	Santboneless	Done in Sprint #4	Sprint 4					
+Implement a function to check the online status of a user	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/75	Liototo	Done in Sprint #4	Sprint 4					
+Writing tests for the progression page	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/51	Raytimz	Done in Sprint #4	Sprint 4					
+Implement the UI to search friends	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/71	Liototo	Done in Sprint #4	Sprint 4					
+Implement a search function to add friends	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/70	Liototo	Done in Sprint #4	Sprint 4					
+Create a button to add checkpoints on the map	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/53	NizarBenMohamed	Done in Sprint #4	Sprint 4					
+Create a UI for the checkpoint addition	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/54	NizarBenMohamed	Done in Sprint #4	Sprint 4					
+Storage of the friends list in Firebase	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/49	Santboneless	Done in Sprint #4	Sprint 4					
+Implement the UI for the progression of the route	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/56	simoandreani	Done in Sprint #4	Sprint 4					
+Implement a function that share the location between 2 players	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/59	Raytimz	In Development	Sprint 7				5	
+show all closest routes around the user current location	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/127	NizarBenMohamed	In Development	Sprint 7				3	
+show all route inside the area	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/106	simoandreani	In Development	Sprint 6				5	
+Implement UI and logic for notifications	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/87	Raytimz	In Development	Sprint 6				3	
+As a social player, I want to add friends so that we can play together	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/37	Liototo	In Development	Sprint 6					
+Store the newly created route to the database	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/62	changchuntzu0618	Done in Sprint #5	Sprint 5				6	5
+Link friends list to database	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/89	Santboneless	Done in Sprint #5	Sprint 5				2	2
+As a user, I want be able to add checkpoints along the route that I'm creating so that other users can see the points of interests that I marked		NizarBenMohamed	In Development	Sprint 6					
+store and reset weekly step	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/112	changchuntzu0618	In Development	Sprint 7				5	0
+clean daily step everyday in firebase	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/114	changchuntzu0618	In Development	Sprint 7				3	0
+As a new player, I want to create a unique character through customization to play the game			Product Backlog						
+As a social player, I want to be able to connect with my friends to play the game together	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/43		Product Backlog						
+As a social player, I want to be able to contact my friends through a messaging plateform so that we can organize walks together			Product Backlog						
+As a user who don't speak english, I want to have access to language settings so that I can understand the functionalities of this app			Product Backlog						

@@ -1,0 +1,353 @@
+/*
+ * Copyright (c) Jupyter Development Team.
+ * Distributed under the terms of the Modified BSD License.
+ */
+
+/************************************************************
+                      Main Panel
+*************************************************************/
+
+.jp-RTCPanel {
+  min-width: var(--jp-sidebar-min-width) !important;
+  color: var(--jp-ui-font-color1);
+  background: var(--jp-layout-color1);
+  font-size: var(--jp-ui-font-size1);
+}
+
+/************************************************************
+                      User Info Panel
+*************************************************************/
+.jp-UserInfoPanel {
+  display: flex;
+  flex-direction: column;
+  max-height: 140px;
+  padding-top: 3px;
+}
+
+.jp-UserInfo-Container {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.jp-UserInfo-Icon {
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.jp-UserInfo-Icon span {
+  margin: auto;
+  text-align: center;
+  font-size: 25px;
+  fill: var(--jp-ui-font-color1);
+  color: var(--jp-ui-font-color1);
+}
+
+.jp-UserInfo-Info {
+  margin: 20px;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.jp-UserInfo-Info label {
+  font-weight: bold;
+  fill: var(--jp-ui-font-color1);
+  color: var(--jp-ui-font-color1);
+}
+
+.jp-UserInfo-Info input {
+  text-decoration: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: var(--jp-ui-font-color1);
+  border-width: 0.5px;
+  background-color: transparent;
+  fill: var(--jp-ui-font-color1);
+  color: var(--jp-ui-font-color1);
+}
+
+/************************************************************
+                Collaborators Info Panel
+*************************************************************/
+
+.jp-CollaboratorsPanel {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.jp-CollaboratorsList {
+  flex-direction: column;
+  display: flex;
+  z-index: 1000;
+}
+
+.jp-Collaborator {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  font-size: var(--jp-ui-font-size0);
+  fill: var(--jp-ui-font-color1);
+  color: var(--jp-ui-font-color1);
+}
+
+.jp-ClickableCollaborator:hover {
+  cursor: pointer;
+  background-color: var(--jp-layout-color2);
+  fill: var(--jp-ui-font-color0);
+  color: var(--jp-ui-font-color0);
+}
+
+.jp-Collaborator > span {
+  padding-left: 7px;
+}
+
+.jp-CollaboratorIcon {
+  border-radius: 100%;
+  padding: 2px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+}
+
+.jp-CollaboratorIcon > span {
+  text-align: center;
+  margin: auto;
+  font-size: 12px;
+  fill: var(--jp-ui-font-color1);
+  color: var(--jp-ui-font-color1);
+}
+
+.jp-CollaboratorCurrent {
+  position: absolute;
+  right: 0;
+}
+
+
+/************************************************************
+                Chat Box Panel
+*************************************************************/
+
+.jp-Chat-Panel {
+  display: flex;
+  flex-direction: column;
+  max-height: 420px;
+  overflow-y: auto;
+}
+
+.jp-Chat-UserIcon {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5px;
+}
+
+.jp-Chat-UserIconText {
+  color: #fff;
+  background-color: var(--user-icon-color);
+}
+
+.jp-Chat-DisplayField {
+  margin-left: 3px;
+  margin-right: 3px; 
+  border: 1px solid #ccc;
+  min-height: 150px; 
+  max-height: 300px;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+.jp-Chat-WritableFieldBox {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.jp-Chat-WritableField {
+  width: 80%;
+  padding: 8px;
+  resize: none;
+}
+
+.jp-Chat-Message {
+  word-wrap: break-word;
+  margin-bottom: 8px;
+}
+
+.jp-Chat-Message-tagged {
+  word-wrap: break-word;
+  margin-bottom: 8px;
+  background-color: #727272;
+}
+
+/************************************************************
+                Poll Panel
+*************************************************************/
+
+.jp-Poll-Panel {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.jp-Poll-QuestionFieldBox {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.jp-Poll-QuestionField {
+  width: 80%;
+  padding: 8px;
+  resize: none;
+  height: 40px;
+}
+
+.jp-Poll-AnswerFieldBox {
+  margin-top: 8px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.jp-Poll-AnswerField {
+  width: 75%;
+  padding: 8px;
+  resize: none;
+  height: 16px;
+}
+
+.jp-Poll-DeleteButton {
+  width: 20px;
+  height: 20px;
+  background-color: #ccc;
+  color: #222;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.jp-Poll-AddAnswerButton {
+  width: 20px;
+  height: 20px;
+  background-color: #ccc;
+  color: #222;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.jp-Poll-SendButton {
+  margin-left: 10px;
+}
+
+.jp-Poll-PollDisplay {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.jp-Poll-SenderDisplay {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.jp-Poll-QuestionDisplay {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.jp-Poll-AnswerContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.jp-Poll-AnswerDisplay {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.jp-Poll-AnswerDisplay:hover {
+  background-color: #f0f0f0;
+  color: #222;
+  cursor: pointer;
+}
+
+.jp-Poll-AnswerDisplay-Voted {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.jp-Poll-ProgressBar {
+  background-color: #ddd;
+  height: 10px;
+  margin-top: 5px;
+}
+
+.jp-Poll-Progress { 
+  background-color: green;
+  height: 100%;
+}
+
+.jp-Poll-Percentage { 
+  margin-top: 5px;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+/************************************************************
+                Role-related classes
+*************************************************************/
+.jp-Role-label {
+  background-color: blue;
+  border-radius: 5px;
+  padding: 2px 5px;
+  color: white;
+  font-size: 1em;
+  margin-left: 5px;
+}
+
+.jp-Role-label.owner{
+  background-color: purple;
+}
+
+/************************************************************
+                Activity tracking
+*************************************************************/
+.jp-active-users-display {
+  padding-left: 75px;
+}
+
+.jp-graph {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  margin-top: 3px;
+  margin-left: 3px;
+}

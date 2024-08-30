@@ -1,0 +1,58 @@
+Title	URL	Assignees	Status	Sprint	Task type	Nature	Epic	Estimated (hours)	Actual time (hours)
+As a gamer I want to have a game that takes into account my real life actions so that I feel gratified when I walk with my friends			Product Backlog						
+As a competitive player, I want to see my progression towards achievements that I have done through the app so that I can showcase my accomplishments and share my gaming journey with others.	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/66		Product Backlog						
+As a user, I want to see all the routes near me and around a certain destination so that I can plan the walks I want to try to discover my area		changchuntzu0618, NizarBenMohamed, simoandreani	Sprint Task	Sprint 9					
+Add score for matching checkpoint		simoandreani	Sprint Task	Sprint 9				3	
+As user, I want to send challenges to my friends so that we can have  fun competitions together		Liototo, Raytimz, Santboneless	Sprint Task	Sprint 9					
+Discuss where we should close gps (locationviewmodel.onPause())		changchuntzu0618, NizarBenMohamed, simoandreani	Sprint Task	Sprint 9				1	
+Create a leaderboard on firebase		Santboneless	Sprint Task	Sprint 9				2	
+Make a UI for the leaderboard		Santboneless	Sprint Task	Sprint 9				2	
+Organize to work on the PRD		changchuntzu0618, Liototo, NizarBenMohamed, Raytimz, Santboneless, simoandreani	Sprint Task	Sprint 9				2	
+Discuss about the score and points systems		changchuntzu0618, Liototo, NizarBenMohamed, Raytimz, Santboneless, simoandreani	Sprint Task	Sprint 9				1	
+As a User, I want to be able to use my app offline		changchuntzu0618, Liototo, NizarBenMohamed, Raytimz, Santboneless, simoandreani	Sprint Task	Sprint 9					
+Cache routes around the player (1km radius)		changchuntzu0618	Sprint Task	Sprint 9				4	
+Cache map tiles around the user (10km radius)		NizarBenMohamed	Sprint Task	Sprint 9				4	
+Merge and test all the map functionality		changchuntzu0618, NizarBenMohamed, simoandreani	Sprint Task	Sprint 9				4	
+a moving marker to track/show current user location	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/153	NizarBenMohamed	Done in Sprint #7	Sprint 7				5	6
+Create challenge data class and interface	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/137	Raytimz	Done in Sprint #7						
+Discuss what challenges can player send to their friends	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/183	Liototo, Raytimz, Santboneless	Done in Sprint #7	Sprint 7				2	1
+Fix the AddFriend function	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/138	Liototo	Done in Sprint #7	Sprint 7				3	3
+Implement a UI to see all the challenges accepted	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/144	Santboneless	Done in Sprint #7	Sprint 7				3	2
+Implement a function to receive and accept/reject a challenge	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/150	Liototo, Santboneless	Done in Sprint #7	Sprint 7				3	3
+Implement a function to send challenges	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/139	Santboneless	Done in Sprint #7	Sprint 7				4	4
+Linking everything for the challenges	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/149	Santboneless	Done in Sprint #7	Sprint 7				4	4
+As a social user, I want to be able to see all my friends to see if they are online or not	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/35	Liototo, Santboneless	Done in Sprint #7	Sprint 5					
+store and reset weekly step	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/112	changchuntzu0618	Done in Sprint #7	Sprint 7				5	5
+Fig bux with location marker	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/179	NizarBenMohamed	Done in Sprint #8	Sprint 8				1	0.5
+Make the step counter work offline	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/160	Liototo	Done in Sprint #8	Sprint 8				3	4
+Discuss what and how we are going to cache		changchuntzu0618, Liototo, NizarBenMohamed, Santboneless, simoandreani	Done in Sprint #8	Sprint 8				1	1
+tidy up all map button	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/172	NizarBenMohamed	Done in Sprint #8	Sprint 8				3	5
+clean daily step everyday in firebase	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/114	changchuntzu0618	Done in Sprint #8	Sprint 7				3	5
+show all route inside the area	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/106	simoandreani	Done in Sprint #8	Sprint 6				5	
+Fix step counter permissions pop up notification	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/164	Santboneless	Done in Sprint #8	Sprint 8				2	2
+get all routes from database	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/102	simoandreani	Done in Sprint #8	Sprint 7				4	
+Cache the profile and login	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/161	Liototo	Done in Sprint #8	Sprint 8				2	4
+Cache step goals for offline mode	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/157	Santboneless	Done in Sprint #8	Sprint 8				2	2
+Cache the total steps, daily steps and weekly steps	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/159	Santboneless	Done in Sprint #8	Sprint 8				2	2
+implement go back button for map	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/167	simoandreani	Done in Sprint #8	Sprint 8				4	
+implement google maps search	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/141	NizarBenMohamed	Done in Sprint #8	Sprint 7				3	6
+Display picture in the checkpoint menu after taking it	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/126	simoandreani	Done in Sprint #8	Sprint 7				2	
+Discuss how do we work for the PRD		changchuntzu0618, Liototo, NizarBenMohamed, Raytimz, Santboneless, simoandreani	Done in Sprint #8	Sprint 7					
+separate startlocationupdate from create route	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/162	changchuntzu0618	Done in Sprint #8	Sprint 8				2	2
+click on marker it will show the corresponding route	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/147	changchuntzu0618	Done in Sprint #8	Sprint 7				6	12
+show all closest routes around the user current location	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/127	NizarBenMohamed	Done in Sprint #8	Sprint 7				3	
+create fake checkpoint (virtual one) for follow route	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/168	changchuntzu0618	Done in Sprint #8	Sprint 8				2	1
+create a function to check if the user is following the route or not	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/170	changchuntzu0618	Done in Sprint #8	Sprint 8				8	10
+As a user, I want to follow the same paths as other users and checkout the points of interests they have marked to broaden my knowledge of my current area		changchuntzu0618, NizarBenMohamed, simoandreani	Done in Sprint #8	Sprint 8					
+Implement a function that check if a challenge was completed	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/142	Raytimz	Done in Sprint #8	Sprint 8				3	
+Add firebase emulator to the CI	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/155	Santboneless	In Development	Sprint 9				4	
+implement checkpoint match button	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/151	simoandreani	In Development	Sprint 8				6	0
+Challenge testing	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/158	Raytimz	In Development	Sprint 8					
+Save picture to the database with the checkpoint	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/182	simoandreani	In Review	Sprint 8				3	5
+As a new player, I want to create a unique character through customization to play the game			Product Backlog						
+As a social player, I want to be able to connect with my friends to play the game together	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/43		Product Backlog						
+As a social player, I want to be able to contact my friends through a messaging plateform so that we can organize walks together			Product Backlog						
+As a user who don't speak english, I want to have access to language settings so that I can understand the functionalities of this app			Product Backlog						
+Bug fixing and major manual app testing		Liototo, Raytimz, Santboneless	Sprint backlog	Sprint 9					
+Offline mode (caching)			Sprint backlog						
+Implement a function that share the location between 2 players	https://github.com/cs311-EPFL-StepQuest/ApplicationCode/issues/59	Raytimz	Sprint backlog	Sprint 7				5	

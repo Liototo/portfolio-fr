@@ -1,0 +1,20 @@
+"System-oriented programming" project
+
+Developed by Eliott Bell and Santhos Umabalan
+
+Bachelor, semester 6 (02.20.2023 - 06.02.2023) at EPFL (Swiss Federal Institute of Technology Lausanne)
+
+
+
+This project consisted of developing a simplified version of the Version 6 UNIX file system in C language. It was carried out through 7 guided steps over the course of a semester.
+
+WHAT WE DID:
+The "provided" folder contains all the code we were given to work with. The "done" folder contains the final versions of these files, augmented with the methods we were to write.
+
+
+
+Skills learned/worked on:
+- Low-level programming
+- C coding
+- Apprehending, understanding and appending pre-existing code
+- Task management and teamwork

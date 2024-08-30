@@ -1,0 +1,20 @@
+"Introduction to machine learning" project
+
+Developed by Eliott Bell, Dmitry Teploukhov and Santhos Umabalan
+
+Bachelor, semester 3 (09.19.2022 - 12.25.2022) at EPFL (Swiss Federal Institute of Technology Lausanne)
+
+
+
+This project consisted of the implementation of several machine learning methods, including ridge regression, logistic regression, k-nearest neighbours and neural networks, as well as other useful practices such as cross-validation and principal component analysis.
+
+WHAT WE DID:
+Most of the "framework" was provided to us. Our code is the implementation of methods in the files cross_validation.py, deep_network.py, knn.py, linear_regression.py, logistic_regression.py, pca.py and parts of main.py (namely, the extraction of arguments and management of which methods to call).
+
+
+
+Skills learned/worked on:
+- Machine learning
+- Python coding
+- Apprehending, understanding and appending pre-existing code
+- Task management and teamwork
