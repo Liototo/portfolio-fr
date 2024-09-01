@@ -10,7 +10,7 @@ Lors de ce projet, nous avons développé StepQuest, une application Android inc
 
 ### Travail effectué
 
-Nous avons codé tous les fichiers en Kotlin du dossier app/src. Nous avons également intégré une connexion à une base de données Firebase. Une grande partie de notre travail consistait à rigoureusement suivre la méthode Scrum, à travers l'organisation d'un tableau Scrum, ou encore entre deux et trois rendez-vous hebdomadaires.
+Nous avons codé tous les fichiers en Kotlin du dossier StepQuest/app/src. Nous avons également intégré une connexion à une base de données Firebase. Une grande partie de notre travail consistait à rigoureusement suivre la méthode Scrum, à travers l'organisation d'un tableau Scrum, ou encore entre deux et trois rendez-vous hebdomadaires.
 
 ### Compétences acquises/travaillées
 

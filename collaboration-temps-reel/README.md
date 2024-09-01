@@ -13,7 +13,7 @@ Le projet était supervisé par Zhenyu Cai, un professeur assistant de l'EPFL, �
 
 ### Travail effectué
 
-Tout mon code se trouve dans le dossier packages/collaboration/src/. Les fichiers activitybargraph.tsx, activitydisplay.tsx, activitydotplot.tsx, cellTracker.ts, chatbox.tsx, messageEncoding.ts, ownerdialog.ts, polls.tsx et roles.ts ont été entièrement écrits par moi-même, ainsi que plusieurs modifications dans d'autres fichiers du même dossier. J'ai également écrit plusieurs classes CSS du fichier packages/collaboration/style/sidepanel.css pour améliorer le rendu visuel des composants que j'ai écrits.
+Tout mon code se trouve dans le dossier jupyter-notebook-collaboration-main/packages/collaboration/src/. Les fichiers activitybargraph.tsx, activitydisplay.tsx, activitydotplot.tsx, cellTracker.ts, chatbox.tsx, messageEncoding.ts, ownerdialog.ts, polls.tsx et roles.ts ont été entièrement écrits par moi-même, ainsi que plusieurs modifications dans d'autres fichiers du même dossier. J'ai également écrit plusieurs classes CSS du fichier jupyter-notebook-collaboration-main/packages/collaboration/style/sidepanel.css pour améliorer le rendu visuel des composants que j'ai écrits.
 
 ### Compétences acquises/travaillées
 
