@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// Handles a sheep entering the center ring
 public class RingTrigger : MonoBehaviour
 {
     // Start is called before the first frame update
@@ -15,6 +16,8 @@ public class RingTrigger : MonoBehaviour
     {
         
     }
+
+    // Give a point to the player who made the sheep enter the ring
      void OnTriggerEnter(Collider other){
         if (other.gameObject.CompareTag("GhostSheep") && other.gameObject.GetComponentInParent<GhostSheepBehavior>().isASheep())
         {

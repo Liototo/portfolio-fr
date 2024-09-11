@@ -15,12 +15,8 @@ class LinearRegression(object):
             Initialize the task_kind (see dummy_methods.py)
             and call set_arguments function of this class.
         """
-        ##
-        ###
         self.task_kind = 'regression'
         self.set_arguments(*args, **kwargs)
-        ###
-        ##
 
     def set_arguments(self, *args, **kwargs):
         """
@@ -29,19 +25,13 @@ class LinearRegression(object):
 
             You can either pass these as args or kwargs.
         """
-
-        ##
-        ###
         if "ridge_regression_lmda" in kwargs:
             self.ridge_regression_lmda = kwargs["ridge_regression_lmda"]
         elif len(args) > 0: 
             self.ridge_regression_lmda = args[0]
         else: 
             self.ridge_regression_lmda = 0
-        ###
-        ##
     
-
     def fit(self, training_data, training_labels):
         """
             Trains the model, returns predicted labels for training data.
@@ -51,9 +41,6 @@ class LinearRegression(object):
             Returns:
                 pred_regression_targets (np.array): predicted target of shape (N,regression_target_size)
         """
-        
-        ##
-        ###
         def get_w_analytical(X_train, y_train):
             i = np.identity(X_train.shape[1])
             w = np.linalg.inv(np.add(X_train.T@X_train, self.ridge_regression_lmda*i))@X_train.T@y_train
@@ -61,8 +48,6 @@ class LinearRegression(object):
         
         self.w = get_w_analytical(training_data, training_labels)
         pred_regression_targets = training_data@self.w
-        ###
-        ##
 
         return pred_regression_targets
 
@@ -75,12 +60,6 @@ class LinearRegression(object):
             Returns:
                 pred_regression_targets (np.array): predicted targets of shape (N,regression_target_size)
         """   
-
-        ##
-        ###
-
         pred_regression_targets = test_data@self.w
-        ###
-        ##
 
         return pred_regression_targets

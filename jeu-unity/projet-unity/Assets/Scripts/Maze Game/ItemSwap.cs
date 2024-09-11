@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// The behaviour of two players swapping items
 public class ItemSwap : MonoBehaviour
 {
 
@@ -19,6 +20,7 @@ public class ItemSwap : MonoBehaviour
 
     }
 
+    // Make the player swap items with the colliding player
     void OnCollisionEnter(Collision collision)
     {
         if (canBeSwapped && collision.collider.gameObject.CompareTag("Player2"))

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// Enables players to steal points from each other
 public class PointStealer : MonoBehaviour
 {
 
@@ -23,6 +24,7 @@ public class PointStealer : MonoBehaviour
     {
         canSteal = !canSteal;
     }
+
 
     void OnCollisionEnter(Collision collision)
     {

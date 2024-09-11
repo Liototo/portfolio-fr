@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
+// Determine winning team (with the most points)
 public class MazeFindWinningTeam : MonoBehaviour
 {
     private TextMeshProUGUI text;

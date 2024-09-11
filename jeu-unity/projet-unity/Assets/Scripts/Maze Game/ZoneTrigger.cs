@@ -4,6 +4,7 @@ using UnityEngine;
 
 public enum player { p1, p2 }
 
+// The behaviour of a player returning to their base with an item
 public class ZoneTrigger : MonoBehaviour
 {
     

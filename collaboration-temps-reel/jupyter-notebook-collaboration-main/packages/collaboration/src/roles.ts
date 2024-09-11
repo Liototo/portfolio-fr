@@ -23,6 +23,9 @@ export interface RoleUpdate {
     role: Role
 }
 
+/**
+ * The role-based access control system
+ */
 export class Roles {
     private _collaborators: string[] = [];
     private _map = new Map<string, Role>;
@@ -32,6 +35,14 @@ export class Roles {
     private _currentUser: User.IManager;
     private _translator: ITranslator | null;
 
+    /**
+     * Initialises the role system
+     * 
+     * @param currentUser the user whose view is displayed
+     * @param awareness the global application awareness
+     * @param aProvider the tool synchronising messages
+     * @param translator the tool to translate text
+     */
     constructor(currentUser: User.IManager, awareness: Awareness, aProvider: WebSocketAwarenessProvider, translator: ITranslator | null) {
         this._awareness = awareness;
         this._aProvider = aProvider;

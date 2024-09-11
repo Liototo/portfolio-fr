@@ -26,14 +26,22 @@ export interface PollUpdate {
     results: number[]
 }
 
-
-
+/**
+ * The widget displaying the poll window
+ */
 export class PollList extends ReactWidget {
 
     private _currentUser: User.IManager;
     private _awarenessProvider: WebSocketAwarenessProvider;
     private _roles: Roles;
 
+    /**
+     *  Constructs the poll display widget
+     * 
+     * @param currentUser the user whose view is displayed
+     * @param awarenessProvider the tool synchronising messages
+     * @param roles the role map
+     */
     constructor(currentUser: User.IManager, awarenessProvider: WebSocketAwarenessProvider, roles: Roles) {
         super();
         
@@ -62,6 +70,9 @@ interface PollListState {
     polls: Poll[]
 }
 
+/**
+ * The React component of the poll display
+ */
 const PollListComponent: React.FC<PollListComponentProps> = ({currentUser, awarenessProvider, userRoles}) => {
 
     const user = currentUser;

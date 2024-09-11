@@ -8,6 +8,7 @@ public enum Item
 
 }
 
+// The behaviour of items spawning on the map
 public class ItemBehavior : MonoBehaviour
 {
     public Item color;
@@ -37,6 +38,7 @@ public class ItemBehavior : MonoBehaviour
 
     }
 
+    // Give the item to the player touching it
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Player1") || other.gameObject.CompareTag("Player2"))
@@ -49,6 +51,7 @@ public class ItemBehavior : MonoBehaviour
         }
     }
 
+    // Make an item spawn in a random position
     void Activate()
     {
         gameObject.SetActive(true);
@@ -67,6 +70,7 @@ public class ItemBehavior : MonoBehaviour
         }
     }
 
+    // Remove item from map, make it spawn in a random timespan
     void Deactivate()
     {
         gameObject.SetActive(false);

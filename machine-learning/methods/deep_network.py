@@ -12,10 +12,6 @@ class SimpleNetwork(nn.Module):
     """
     def __init__(self, input_size, num_classes, hidden_size=16):
         super(SimpleNetwork, self).__init__()
-
-        # self.fc1 = nn.Linear(input_size, hidden_size)
-        # self.fc2 = nn.Linear(hidden_size, hidden_size)
-        # self.fc3 = nn.Linear(hidden_size, num_classes)
         
         self.fc1 = nn.Linear(input_size, hidden_size)
         self.fc2 = nn.Linear(hidden_size, num_classes)
@@ -29,10 +25,6 @@ class SimpleNetwork(nn.Module):
         Returns:
             output_class (torch.tensor): shape (N, C) (logits)
         """
-        #x = x.flatten()#?
-        # x_tran = F.relu(self.fc1(x))
-        # x_tran1 = F.relu(self.fc2(x_tran))
-        # output_class = F.relu(self.fc3(x_tran1))
         
         x_tran = F.relu(self.fc1(x))
         output_class = F.relu(self.fc2(x_tran))
@@ -46,8 +38,7 @@ class Trainer(object):
     """
 
     def __init__(self, model, lr, epochs, beta=100):
-        """
-        """
+
         self.lr = lr
         self.epochs = epochs
         self.model= model
@@ -81,11 +72,8 @@ class Trainer(object):
 
         self.model.train()
         for it, batch in enumerate(dataloader):
-            #print(len(batch))
             x, y, z = batch
-            #print(x.shape, y.shape, z.shape)
             model_answers = self.model(x)
-            #print(model_answers.shape, y.shape)
             loss = self.classification_criterion(model_answers, z)
             self.optimizer.zero_grad()
             loss.backward()

@@ -27,6 +27,7 @@ public class GameManager : MonoBehaviour
                 
     }
 
+    // Pause the game
     public static void PauseGame()
     {
         if (Time.timeScale == 0) Time.timeScale = 1;

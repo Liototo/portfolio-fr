@@ -16,7 +16,12 @@ export interface SimpleUser {
 
 }
 
-
+/**
+ * Initialises activity tracking for a notebook
+ * 
+ * @param nb the active notebook panel
+ * @param user the user whose view is displayed
+ */
 export function trackActivity(nb: NotebookPanel, user: User.IManager) {
 
     currentUser = { id: user.identity!.username, name: user.identity!.name }
@@ -37,6 +42,11 @@ export function trackActivity(nb: NotebookPanel, user: User.IManager) {
 
 }
 
+/**
+ * Stops tracking activity on a notebook
+ * 
+ * @param nb the notebook to stop tracking
+ */
 export function stopTracking(nb: NotebookPanel | null) {
 
     if (nb) {
@@ -47,6 +57,9 @@ export function stopTracking(nb: NotebookPanel | null) {
 
 }
 
+/**
+ * Handles the current user moving to a different cell
+ */
 function onCellChanged() {
 
     {
@@ -71,7 +84,11 @@ function onCellChanged() {
 
 }
 
-// Increment a cell's active users count
+/**
+ * Increments a cell's active users count
+ * 
+ * @param cell the cell whose count should be incremented
+ */
 function addActivity(cell: Cell) {
 
     if (cell.model.id === undefined) return;
@@ -88,7 +105,11 @@ function addActivity(cell: Cell) {
     cell.model.setMetadata('active_users', activeUsersArray);       
 }
 
-// Decrement a cell's active users count
+/**
+ * Decrements a cell's active users count
+ * 
+ * @param cell the cell whose count should be decremented
+ */
 function removeActivity(cell: Cell) {
         
     if (cell.model === null) return;

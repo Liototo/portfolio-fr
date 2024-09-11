@@ -17,6 +17,7 @@ public enum PlayerColor {
     black = 4
 }
 
+// Enables players to move their character
 public class MoveWithKeyboardBehavior : AgentBehaviour
 {
 
@@ -35,10 +36,6 @@ public class MoveWithKeyboardBehavior : AgentBehaviour
         inputKeyboard = (InputKeyboard)movementInputDropdown.value;
         playerColor = (PlayerColor)colorInputDropdown.value;
 
-        // if (inputKeyboard == InputKeyboard.arrows) 
-        //     (gameObject.GetComponent("CelluloAgent") as CelluloAgent).SetVisualEffect(VisualEffect.VisualEffectConstAll, Color.magenta, 255);
-        // if (inputKeyboard == InputKeyboard.wasd) 
-        //     (gameObject.GetComponent("CelluloAgent") as CelluloAgent).SetVisualEffect(VisualEffect.VisualEffectConstAll, Color.blue, 255);
         hasLongTouched = false;
     }
 
@@ -66,6 +63,7 @@ public class MoveWithKeyboardBehavior : AgentBehaviour
         }
     }
 
+    // Determine character movement direction
     public override Steering GetSteering()
     {
         inputKeyboard = (InputKeyboard)movementInputDropdown.value;
@@ -84,11 +82,13 @@ public class MoveWithKeyboardBehavior : AgentBehaviour
         return steering;
     }
 
+    // Give a point to the player
     public void addPoint()
     {
         points++;
     }
 
+    // Remove a point from the player
     public void removePoint()
     {
         points--;

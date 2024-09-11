@@ -7,6 +7,7 @@ public enum Mode
     ghost = 1
 }
 
+// The behaviour of the "Ghost sheep" cellulos
 public class GhostSheepBehavior : AgentBehaviour
 {
     public Mode mode;
@@ -21,6 +22,7 @@ public class GhostSheepBehavior : AgentBehaviour
         Invoke("switchMode", Random.Range(10f, 20f));
     }
 
+    // Give a point to the closest player
     public void givePoint()
     {
         if (mode == Mode.sheep)
@@ -29,6 +31,7 @@ public class GhostSheepBehavior : AgentBehaviour
         }
     }
 
+    // Determine movement direction (away from closest player if sheep, towards closest player if ghost)
     public override Steering GetSteering()
     {
         Vector3 closest = (findClosestPlayer().gameObject.transform.position - transform.position);
@@ -40,10 +43,10 @@ public class GhostSheepBehavior : AgentBehaviour
             if (dist <= 5f) steering.linear = (-closest) * agent.maxAccel; 
         }
         else steering.linear = closest * agent.maxAccel;
-        // steering.linear = this.transform.parent.TransformDirection(Vector3.ClampMagnitude(steering.linear, agent.maxAccel));
         return steering;
     }
 
+    // Determine closest player
     public GameObject findClosestPlayer()
     {
 
@@ -64,6 +67,7 @@ public class GhostSheepBehavior : AgentBehaviour
         return closest;
     }
 
+    // Switch between ghost (attacks player) and sheep (runs from players) modes
     public void switchMode()
     {
         players = GameObject.FindGameObjectsWithTag("Player");
@@ -104,6 +108,7 @@ public class GhostSheepBehavior : AgentBehaviour
         audio.PlayOneShot((AudioClip)Resources.Load(sound));
     }
     
+    // If ghost, make collided player lose a point
     void OnCollisionEnter(Collision collision)
     {
         if (mode == Mode.ghost && collision.collider.gameObject.CompareTag("Player"))

@@ -26,6 +26,9 @@ export interface GraphProps {
 
 }
 
+/**
+ * The widget displaying user activity in a graph/plot
+ */
 export class ActivityDisplay extends ReactWidget {
 
     private _tracker: INotebookTracker
@@ -34,6 +37,15 @@ export class ActivityDisplay extends ReactWidget {
     private _app: JupyterFrontEnd;
     private _chatPanel: SidePanel;
 
+    /**
+     * Constructs the user activity display widget
+     * 
+     * @param tracker the activity tracker
+     * @param currentUser the user whose view is displayed
+     * @param roles the role map
+     * @param app the front end Jupyter application
+     * @param chatPanel the chat panel
+     */
     constructor(tracker: INotebookTracker, currentUser: User.IManager, roles: Roles, app: JupyterFrontEnd, chatPanel: SidePanel) {
 
         super();
@@ -58,6 +70,9 @@ export class ActivityDisplay extends ReactWidget {
 
 }
 
+/**
+ * The React component of the activity display
+*/
 const ActivityDisplayComponent: React.FC<ActivityDisplayComponentProps> = ({tracker, currentUser, userRoles, app, chatPanel}) => {
 
     const [showBarGraph, setShowBarGraph] = React.useState(true);

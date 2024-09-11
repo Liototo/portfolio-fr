@@ -1,7 +1,10 @@
 import { IChatMessage } from '@jupyter/docprovider';
 import { Poll, PollUpdate } from './polls';
 import { RoleUpdate } from './roles';
-//import { UserActivity } from './cellTracker';
+
+/**
+ * Functions converting structs to strings and back
+ */
 
 export function msgToString(msg: IChatMessage): string {
 

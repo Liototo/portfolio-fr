@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// The behaviour of gems
 public class GemTrigger : MonoBehaviour
 {
     GameManager gameManager;
@@ -16,6 +17,8 @@ public class GemTrigger : MonoBehaviour
     {
 
     }
+
+    // Handle a player collecting a gem
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))

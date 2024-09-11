@@ -16,6 +16,14 @@ interface DotPlotProps extends GraphProps {
 
 }
 
+/**
+ * Creates a dot plot displaying user activity in real time
+ * 
+ * @param tracker the activity tracker
+ * @param app the front end Jupyter application
+ * @param chatPanel the chat panel
+ * @returns a plot of active users per cell
+ */
 export const ActivityDotPlot: React.FC<DotPlotProps> = ({tracker, app, chatPanel}) => {
 
     const [state, setState] = React.useState<SimpleUser[][]>([]);

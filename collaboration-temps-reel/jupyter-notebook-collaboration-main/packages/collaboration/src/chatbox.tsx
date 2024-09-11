@@ -7,11 +7,20 @@ import { WebSocketAwarenessProvider, IChatMessage } from '@jupyter/docprovider';
 
 import * as msgEnc from './messageEncoding';
 
+/**
+ * The widget displaying the chatbox
+ */
 export class Chatbox extends ReactWidget {
 
     private _currentUser: User.IManager;
     private _awarenessProvider: WebSocketAwarenessProvider;
     
+    /**
+     * Constructs the chatbox display widget
+     * 
+     * @param currentUser the user whose view is displayed
+     * @param awarenessProvider the tool synchronising messages
+     */
     constructor(currentUser: User.IManager, awarenessProvider: WebSocketAwarenessProvider) {
       super();
       
@@ -21,6 +30,11 @@ export class Chatbox extends ReactWidget {
       this.addClass('jp-Chat-Panel')
     }
 
+    /**
+     * Automatically focuses on the chatbox writing field
+     * 
+     * @param username the user to tag, if any
+     */
     focusOnWritingField(username?: string) {
 
       const writingField = this.node?.querySelector('.jp-Chat-WritableField') as HTMLTextAreaElement | null;
@@ -62,6 +76,9 @@ interface ChatBoxComponentState {
 
 }
 
+/**
+ * The React component of the chatbox display
+*/
 const ChatBoxComponent: React.FC<ChatBoxComponentProps> = ({currentUser, awarenessProvider}) => {
 
     const user = currentUser;

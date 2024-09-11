@@ -1,6 +1,11 @@
 import { Dialog, showDialog } from '@jupyterlab/apputils';
 import { ITranslator, nullTranslator } from '@jupyterlab/translation';
 
+/**
+ * Shows a warning message if the current user is the session owner
+ * 
+ * @param translator the tool to translate the message
+ */
 export async function showOwnerDialog(translator: ITranslator | null): Promise<Dialog.IResult<string>> {
 
     const trans = (translator ?? nullTranslator).load('collaboration');

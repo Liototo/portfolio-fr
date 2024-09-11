@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
+// Update player score
 public class MazeUpdateScore : MonoBehaviour
 {
     private TextMeshProUGUI text;

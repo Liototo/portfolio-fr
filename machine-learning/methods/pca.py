@@ -23,16 +23,12 @@ class PCA(object):
             The PCA class should have a variable defining the number of dimensions (d).
             You can either pass this as an arg or a kwarg.
         """
-        ##
-        ###
         if "pca_dimension" in kwargs:
             self.pca_dimension = ["pca_dimension"]
         elif len(args) > 0 :
             self.pca_dimension = args[0]
         else :
             self.pca_dimension = 200
-        ###
-        ##
 
     def find_principal_components(self, training_data):
         """
@@ -46,9 +42,6 @@ class PCA(object):
             Returns:
                 exvar (float): explained variance
         """
-
-        ##
-        ###
         self.mean = np.mean(training_data, axis=0)
 
         X_tilde = np.subtract(training_data, self.mean)
@@ -67,8 +60,6 @@ class PCA(object):
         Y = X_tilde@self.W
 
         exvar = np.sum(eg)/np.sum(eigvals)
-        ###
-        ##
 
         return exvar * 100
 
@@ -82,12 +73,8 @@ class PCA(object):
             Returns:
                 data_reduced (float): reduced data of shape (N,d)
         """
-        ##
-        ###
         data_reduced = np.subtract(data, self.mean)@self.W
-        ###
-        ##
-        
+
         return data_reduced
         
 

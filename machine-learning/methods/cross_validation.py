@@ -58,8 +58,6 @@ def cross_validation(method_obj=None, search_arg_name=None, search_arg_vals=[], 
     acc_list1 = []
     for arg in search_arg_vals:
         arg_dict = {search_arg_name: arg}
-        # this is just a way of giving an argument 
-        # (example: for DummyClassifier, this is "dummy_arg":1)
         method_obj.set_arguments(**arg_dict)
 
         acc_list2 = []

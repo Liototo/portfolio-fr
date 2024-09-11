@@ -5,6 +5,12 @@ import Plot from 'react-plotly.js';
 
 import { GraphProps } from './activitydisplay';
 
+/**
+ * Creates a bar graph displaying user activity in real time
+ * 
+ * @param tracker the activity tracker
+ * @returns a graph of active users per cell
+ */
 export const ActivityBarGraph: React.FC<GraphProps> = ({tracker}) => {
 
     const [state, setState] = React.useState<number[]>([]);

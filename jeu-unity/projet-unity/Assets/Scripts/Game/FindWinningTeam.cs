@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
+// Determine which team won the game (has the most points)
 public class FindWinningTeam : MonoBehaviour
 {
     private TextMeshProUGUI text;

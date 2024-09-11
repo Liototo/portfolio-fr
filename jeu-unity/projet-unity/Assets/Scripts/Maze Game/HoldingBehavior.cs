@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// The behaviour of a player holding an item
 public class HoldingBehavior : MonoBehaviour
 {
 
@@ -21,12 +22,14 @@ public class HoldingBehavior : MonoBehaviour
         
     }
 
+    // Make the player grab an item
     public void GrabItem(Item i, bool sound)
     {
         held = i;
         if (sound) playSound("GemCollected");
     }
 
+    // Make the player drop their item and give them points
     public void DropItem()
     {
         if (!cleared) return;
@@ -51,6 +54,7 @@ public class HoldingBehavior : MonoBehaviour
         setClear(false);
     }
 
+    // Give points to the player
     public void addPoints(int i)
     {
         for (int j = 1; j <= i; ++j)
