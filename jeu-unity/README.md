@@ -10,7 +10,7 @@ Ce projet a été développé en trois étapes:
 - Ajout d'améliorations prédéterminées au dit mode de jeu sans instructions claires
 - Création de notre propre mode de jeu (mode "maze") sans contraintes ou instructions
 
-Le jeu est jouable au clavier. Il est également possible d'y jouer avec des Cellulos, des robots hexagonaux à retour de force développés à l'EPFL. Les personnages jouables prennent la forme desdits robots.esigned after.
+Le jeu est jouable au clavier. Il est également possible d'y jouer avec des Cellulos, des robots hexagonaux à retour de force développés à l'EPFL. Les personnages jouables prennent la forme desdits robots.
 
 Il est possible de jouer au jeu en exécutant jeu-compile/SpaceGhostSheep.exe ou de lire le code source dans le dossier projet-unity.
 
