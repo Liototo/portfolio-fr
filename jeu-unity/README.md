@@ -27,3 +27,14 @@ Le code que nous avons écrit se trouve dans le dossier projet-unity/Assets/Scri
 - Design d'interfaces utilisateur
 
 - Travail d'équipe et organisation
+
+## Captures d'écran
+
+Le mode de jeu "classic", implémenté selon des instructions précises. Les deux joueurs (bleu et magenta) doivent repousser le robot (vert) dans la zone centrale pour gagner des points; à intervalles réguliers, le robot vert devient rouge et se met à pourchasser les joueurs, leur faisant perdre des points à l'impact.
+<p align="center"><img src="..\Resources\sgs_classic.png" width="50%"></p>
+
+Le mode de jeu "maze", conceptualisé par notre équipe. Les deux joueurs doivent récupérer des gemmes (vertes, roses ou oranges), puis passer dans la zone centrale avant de retourner dans leur base pour gagner des points. Si les joueurs s'entrechoquent, ils échangent les gemmes tenues.
+<p align="center"><img src="..\Resources\sgs_maze.png" width="50%"></p>
+
+Une version plus difficile du mode de jeu "maze", où le labyrinthe est presque entièrement plongé dans la pénombre.
+<p align="center"><img src="..\Resources\sgs_maze_hard.png" width="50%"></p>
